@@ -1,0 +1,81 @@
+/* 版心 */
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* #region顶部导航栏开始 */
+.topbar{
+    background-color: #ECECEC;
+    height: 30px;
+    color: rgba(11,94,178,0.85);
+}
+.topbar .container{
+    background-color: #ECECEC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+.topbar .container .slogan span{
+    font-size: 16px;
+    font-weight:bolder;
+    cursor: default;
+    width: 150px;
+    display: block;
+}
+.topbar .container .topbar-nav{
+    display: flex;
+    align-items: center;
+}
+.topbar .container .topbar-nav .topbar-list{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.topbar .container .topbar-nav .topbar-list li{
+    margin-right: 15px;
+    text-wrap: nowrap;
+}
+.topbar .container .topbar-list li a{
+    color: #031e69;
+}
+.topbar .container .topbar-list li a:hover{
+    color:#fea500;
+}
+/* #endregion顶部导航栏结束 */
+
+/* #region头部开始 */
+.header{
+    background-color: #0B5EB2;
+}
+.header .container{
+    background-color: #0B5EB2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+.header .container .logo img{
+    height: 60px;
+}
+.header .container .header-search .header-form input{
+    height: 40px;
+    width: 480px;
+    border: 1px solid #fea500;
+    font-size: 20px;
+    border-radius: 6px 0 0 6px;
+    box-sizing: border-box;
+}
+.header .container .header-search .header-form button{
+    width: 100px;
+    height: 40px; 
+    background-color: #fea500;
+    font-size: 20px;
+    vertical-align: top;
+    background-image: url(../images/search.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: 38px 8px;
+    border-radius: 0 6px 6px 0;
+}
+/* #endregion头部结束 */
